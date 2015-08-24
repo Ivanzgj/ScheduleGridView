@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7BB9CE1B8B096700BAABAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9CD1B8B096700BAABAC /* main.m */; };
+		2C7BB9D11B8B096700BAABAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9D01B8B096700BAABAC /* AppDelegate.m */; };
+		2C7BB9D41B8B096700BAABAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9D31B8B096700BAABAC /* ViewController.m */; };
+		2C7BB9D71B8B096700BAABAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7BB9D51B8B096700BAABAC /* Main.storyboard */; };
+		2C7BB9D91B8B096700BAABAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7BB9D81B8B096700BAABAC /* Images.xcassets */; };
+		2C7BB9DC1B8B096700BAABAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7BB9DA1B8B096700BAABAC /* LaunchScreen.xib */; };
+		2C7BB9E81B8B096700BAABAC /* ScheduleGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9E71B8B096700BAABAC /* ScheduleGridViewTests.m */; };
+		2C7BB9F51B8B09C600BAABAC /* XBaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9F21B8B09C600BAABAC /* XBaseGridView.m */; };
+		2C7BB9F61B8B09C600BAABAC /* XGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BB9F41B8B09C600BAABAC /* XGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7BB9E21B8B096700BAABAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C7BB9C01B8B096700BAABAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7BB9C71B8B096700BAABAC;
+			remoteInfo = ScheduleGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C7BB9C81B8B096700BAABAC /* ScheduleGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BB9CC1B8B096700BAABAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7BB9CD1B8B096700BAABAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C7BB9CF1B8B096700BAABAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C7BB9D01B8B096700BAABAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C7BB9D21B8B096700BAABAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C7BB9D31B8B096700BAABAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C7BB9D61B8B096700BAABAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C7BB9D81B8B096700BAABAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C7BB9DB1B8B096700BAABAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C7BB9E11B8B096700BAABAC /* ScheduleGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BB9E61B8B096700BAABAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7BB9E71B8B096700BAABAC /* ScheduleGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleGridViewTests.m; sourceTree = "<group>"; };
+		2C7BB9F11B8B09C600BAABAC /* XBaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBaseGridView.h; sourceTree = "<group>"; };
+		2C7BB9F21B8B09C600BAABAC /* XBaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBaseGridView.m; sourceTree = "<group>"; };
+		2C7BB9F31B8B09C600BAABAC /* XGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGridView.h; sourceTree = "<group>"; };
+		2C7BB9F41B8B09C600BAABAC /* XGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGridView.m; sourceTree = "<group>"; };
+		2C7BB9F81B8B0C2000BAABAC /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7BB9C51B8B096700BAABAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7BB9DE1B8B096700BAABAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C7BB9BF1B8B096700BAABAC = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9CA1B8B096700BAABAC /* ScheduleGridView */,
+				2C7BB9E41B8B096700BAABAC /* ScheduleGridViewTests */,
+				2C7BB9C91B8B096700BAABAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7BB9C91B8B096700BAABAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9C81B8B096700BAABAC /* ScheduleGridView.app */,
+				2C7BB9E11B8B096700BAABAC /* ScheduleGridViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7BB9CA1B8B096700BAABAC /* ScheduleGridView */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9F71B8B09CE00BAABAC /* schedule gridview */,
+				2C7BB9CF1B8B096700BAABAC /* AppDelegate.h */,
+				2C7BB9D01B8B096700BAABAC /* AppDelegate.m */,
+				2C7BB9F81B8B0C2000BAABAC /* Macro.h */,
+				2C7BB9D21B8B096700BAABAC /* ViewController.h */,
+				2C7BB9D31B8B096700BAABAC /* ViewController.m */,
+				2C7BB9D51B8B096700BAABAC /* Main.storyboard */,
+				2C7BB9D81B8B096700BAABAC /* Images.xcassets */,
+				2C7BB9DA1B8B096700BAABAC /* LaunchScreen.xib */,
+				2C7BB9CB1B8B096700BAABAC /* Supporting Files */,
+			);
+			path = ScheduleGridView;
+			sourceTree = "<group>";
+		};
+		2C7BB9CB1B8B096700BAABAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9CC1B8B096700BAABAC /* Info.plist */,
+				2C7BB9CD1B8B096700BAABAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C7BB9E41B8B096700BAABAC /* ScheduleGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9E71B8B096700BAABAC /* ScheduleGridViewTests.m */,
+				2C7BB9E51B8B096700BAABAC /* Supporting Files */,
+			);
+			path = ScheduleGridViewTests;
+			sourceTree = "<group>";
+		};
+		2C7BB9E51B8B096700BAABAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9E61B8B096700BAABAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C7BB9F71B8B09CE00BAABAC /* schedule gridview */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BB9F11B8B09C600BAABAC /* XBaseGridView.h */,
+				2C7BB9F21B8B09C600BAABAC /* XBaseGridView.m */,
+				2C7BB9F31B8B09C600BAABAC /* XGridView.h */,
+				2C7BB9F41B8B09C600BAABAC /* XGridView.m */,
+			);
+			name = "schedule gridview";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7BB9C71B8B096700BAABAC /* ScheduleGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7BB9EB1B8B096700BAABAC /* Build configuration list for PBXNativeTarget "ScheduleGridView" */;
+			buildPhases = (
+				2C7BB9C41B8B096700BAABAC /* Sources */,
+				2C7BB9C51B8B096700BAABAC /* Frameworks */,
+				2C7BB9C61B8B096700BAABAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleGridView;
+			productName = ScheduleGridView;
+			productReference = 2C7BB9C81B8B096700BAABAC /* ScheduleGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C7BB9E01B8B096700BAABAC /* ScheduleGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7BB9EE1B8B096700BAABAC /* Build configuration list for PBXNativeTarget "ScheduleGridViewTests" */;
+			buildPhases = (
+				2C7BB9DD1B8B096700BAABAC /* Sources */,
+				2C7BB9DE1B8B096700BAABAC /* Frameworks */,
+				2C7BB9DF1B8B096700BAABAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7BB9E31B8B096700BAABAC /* PBXTargetDependency */,
+			);
+			name = ScheduleGridViewTests;
+			productName = ScheduleGridViewTests;
+			productReference = 2C7BB9E11B8B096700BAABAC /* ScheduleGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C7BB9C01B8B096700BAABAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "朱广健";
+				TargetAttributes = {
+					2C7BB9C71B8B096700BAABAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2C7BB9E01B8B096700BAABAC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2C7BB9C71B8B096700BAABAC;
+					};
+				};
+			};
+			buildConfigurationList = 2C7BB9C31B8B096700BAABAC /* Build configuration list for PBXProject "ScheduleGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C7BB9BF1B8B096700BAABAC;
+			productRefGroup = 2C7BB9C91B8B096700BAABAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7BB9C71B8B096700BAABAC /* ScheduleGridView */,
+				2C7BB9E01B8B096700BAABAC /* ScheduleGridViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7BB9C61B8B096700BAABAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7BB9D71B8B096700BAABAC /* Main.storyboard in Resources */,
+				2C7BB9DC1B8B096700BAABAC /* LaunchScreen.xib in Resources */,
+				2C7BB9D91B8B096700BAABAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7BB9DF1B8B096700BAABAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7BB9C41B8B096700BAABAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7BB9D41B8B096700BAABAC /* ViewController.m in Sources */,
+				2C7BB9F61B8B09C600BAABAC /* XGridView.m in Sources */,
+				2C7BB9D11B8B096700BAABAC /* AppDelegate.m in Sources */,
+				2C7BB9F51B8B09C600BAABAC /* XBaseGridView.m in Sources */,
+				2C7BB9CE1B8B096700BAABAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7BB9DD1B8B096700BAABAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7BB9E81B8B096700BAABAC /* ScheduleGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7BB9E31B8B096700BAABAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7BB9C71B8B096700BAABAC /* ScheduleGridView */;
+			targetProxy = 2C7BB9E21B8B096700BAABAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C7BB9D51B8B096700BAABAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7BB9D61B8B096700BAABAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C7BB9DA1B8B096700BAABAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7BB9DB1B8B096700BAABAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C7BB9E91B8B096700BAABAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7BB9EA1B8B096700BAABAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7BB9EC1B8B096700BAABAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C7BB9ED1B8B096700BAABAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C7BB9EF1B8B096700BAABAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScheduleGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleGridView.app/ScheduleGridView";
+			};
+			name = Debug;
+		};
+		2C7BB9F01B8B096700BAABAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScheduleGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleGridView.app/ScheduleGridView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7BB9C31B8B096700BAABAC /* Build configuration list for PBXProject "ScheduleGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7BB9E91B8B096700BAABAC /* Debug */,
+				2C7BB9EA1B8B096700BAABAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7BB9EB1B8B096700BAABAC /* Build configuration list for PBXNativeTarget "ScheduleGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7BB9EC1B8B096700BAABAC /* Debug */,
+				2C7BB9ED1B8B096700BAABAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C7BB9EE1B8B096700BAABAC /* Build configuration list for PBXNativeTarget "ScheduleGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7BB9EF1B8B096700BAABAC /* Debug */,
+				2C7BB9F01B8B096700BAABAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C7BB9C01B8B096700BAABAC /* Project object */;
+}
